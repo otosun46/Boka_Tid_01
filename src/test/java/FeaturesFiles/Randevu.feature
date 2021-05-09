@@ -1,4 +1,6 @@
 Feature: Randevu Function
+
+  @SmokeTest
   Scenario: Randevu alma
     Given Randevu sayfasina git
     Then Resedokument almayi sec

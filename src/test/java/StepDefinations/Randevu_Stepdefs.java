@@ -54,7 +54,7 @@ public class Randevu_Stepdefs {
     public void randevuIcinZamanVarMi() {
         String mesaj=randevuContent.findWebElement("errorText").getText();
         String text = "Det finns inga mer lediga tider för närvarande.";
-//        randevuContent.findElementAndVerifyContainsText("errorText",text);
+        randevuContent.findElementAndVerifyContainsText("errorText",text);
        // System.out.println(mesaj);
         if (mesaj.toLowerCase().contains(text.toLowerCase())){
             randevuContent.beklet(3000);
