@@ -68,8 +68,8 @@ public class _Parent {
     public void verifyElementContainsText(WebElement element, String text) {
         // waitUntilVisible(element);
         wait.until(ExpectedConditions.textToBePresentInElement(element, text));
-        //   System.out.println(element.getText());
-        Assert.assertTrue(element.getText().toLowerCase().contains(text.toLowerCase()));
+          // System.out.println(element.getText());
+           Assert.assertTrue(element.getText().toLowerCase().contains(text.toLowerCase()));
     }
 
     public List<WebElement> waitVisibleListAllElement(List<WebElement> elementList) {

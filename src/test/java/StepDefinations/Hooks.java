@@ -45,6 +45,6 @@ String simdi= LocalTime.now().format(DateTimeFormatter.ofPattern("HH_mm_ss"));
         }catch (InterruptedException e){
             e.printStackTrace();
         }
-        Driver.quitDriver();
+//        Driver.quitDriver();
     }
 }
